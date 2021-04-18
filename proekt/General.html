@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Button Hover Effects</title>
+  <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+  <section class="buttons">
+  <div class="container">
+    <div>
+      <h1 class="heading">Робототехника - </h1>
+        <div class ='d1'>прикладная наука, занимающаяся разработкой автоматизированных технических систем и являющаяся важнейшей технической основой развития производства</div>
+          <img src='./Photos/Robot.jpg' class ='heading'> 
+    </div>
+    <a class="btnfos btnfos-1" id='btn1'>
+      <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>
+     История
+    </a> 
+    <a class="btnfos btnfos-2" id='btn2'>Законы</a> 
+    <!--End of Button 2 -->
+    
+    <a class="btnfos btnfos-3" id='btn3'>Направления</a> 
+    <!--End of Button 3 -->
+    
+    <a class="btnfos btnfos-4" id='btn4'><span>В наше время</span></a> 
+    <!--End of Button 4 -->
+    
+    <a class="btnfos btnfos-5" id='btn5'>Профориентация</a> 
+    <!--End of Button 5 -->
+  </div> 
+</section> 
+</body>
+<script>
+    const func1 = function () {
+    location.replace( src = './History.html');
+
+  }
+  btn1.onclick = func1
+  const func2 = function () {
+  location.replace( src = './Laws.html');
+
+  }
+  btn2.onclick = func2
+  const func3 = function () {
+  location.replace( src = './Areas.html');
+
+  }
+  btn3.onclick = func3
+  const func4 = function () {
+  location.replace( src = './Nowadays.html');
+
+  }
+  btn4.onclick = func4
+  const func5 = function () {
+  location.replace( src = './Career_guidance.html');
+
+  }
+  btn5.onclick = func5
+</script>
+<style>
+.d1 {
+    color: #fff;
+  font-size: 1.25em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+}
+</style>
+</html>
